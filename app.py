@@ -1,5 +1,5 @@
 from telegram import Update
-from telegram import Application, CommandHandler, MessageHandler, filters, ContextTypes
+from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 # Obtenemos las credenciales
 with open('api_key.txt','r') as file:
     api_key = file.read()
